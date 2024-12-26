@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rolagem de Dados RPG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rolagem de Dados RPG</h1>
+    <div id="dice-container">
+      <button class="dice-button" onclick="rollDice(20)">D20</button>
+      <button class="dice-button" onclick="rollDice(12)">D12</button>
+      <button class="dice-button" onclick="rollDice(10)">D10</button>
+      <button class="dice-button" onclick="rollDice(8)">D8</button>
+      <button class="dice-button" onclick="rollDice(6)">D6</button>
+      <button class="dice-button" onclick="rollDice(4)">D4</button>
+      <button class="dice-button" onclick="rollDice(3)">D3</button>
+    </div>
+    <div id="result">
+      <h2>Resultado: <span id="dice-result">-</span></h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
